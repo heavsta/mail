@@ -1,0 +1,31 @@
+textarea {
+    min-height: 400px;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.mailbox-email {
+    border: 1px solid black;
+    display: flex;
+    justify-content: space-between;
+    padding: 5px;
+    cursor: pointer;
+}
+
+.mailbox-sender {
+    font-weight: bold;
+}
+
+.mailbox-timestamp {
+    color: #888888;
+}
+
+.read {
+    background-color: #DDE1E7;
+}
+
+#email-view p {
+    margin-bottom: 0;
+}
